@@ -28,14 +28,22 @@
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@anim/fragment_fade_exit"
             app:popUpTo="@id/firstFragment" />
+        <action
+            android:id="@+id/action_secondFragment_to_home2"
+            app:destination="@id/home2" />
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
         android:name="com.app.navigationcomponentsample.ThirdFragment"
         android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
+        tools:layout="@layout/fragment_third">
         <action
             android:id="@+id/action_thirdFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
     </fragment>
+    <activity
+        android:id="@+id/home2"
+        android:name="com.app.navigationcomponentsample.Activity.Home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
 </navigation>

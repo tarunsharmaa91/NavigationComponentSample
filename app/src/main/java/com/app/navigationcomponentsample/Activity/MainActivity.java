@@ -1,8 +1,10 @@
-package com.app.navigationcomponentsample;
+package com.app.navigationcomponentsample.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.app.navigationcomponentsample.R;
 
 public class MainActivity extends AppCompatActivity {
 
